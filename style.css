@@ -71,3 +71,43 @@ a{
 }
 
 /* Section 2 */
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    gap:80px;
+    flex-direction: column;
+    /* padding: 20px 275px; */
+    height: 600px;
+    align-items: center;
+    text-align: center;
+}
+.info-header{
+    text-align: center;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+}
+.boxes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+.box-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 175px;
+    margin:30px;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+.box{
+    border:5px solid #3882f6;
+    height: 175px;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
