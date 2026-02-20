@@ -111,3 +111,26 @@ a{
     border-radius: 15px;
     margin-bottom: 10px;
 }
+
+/* Section 3 */
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #e5e7eb;
+    padding: 20px 275px;
+    flex-direction: column;
+}
+.section-3 .text{
+    font-size: 36px;
+    color:#1f2937;
+    font-style: italic;
+    font-weight: 300;
+    width: 900px;
+}
+.qg{
+    font-weight: bold;
+    text-align: end;
+    font-size: 25px;
+}
